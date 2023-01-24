@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Public Panel - Data Fields
 
 ### [activity\_year](#activity_year)

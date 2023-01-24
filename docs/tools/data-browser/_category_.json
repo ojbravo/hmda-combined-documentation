@@ -1,8 +1,0 @@
-{
-  "label": "Data Browser",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "This tool allows users to filter and download HMDA datasets."
-  }
-}

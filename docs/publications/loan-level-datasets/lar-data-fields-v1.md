@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # 2017 LAR Data Fields
 
 ### [activity\_year](#activity_year)

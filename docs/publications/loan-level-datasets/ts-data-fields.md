@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Public Transmittal Sheet - Data Fields
 
 ### [activity\_year](#activity_year)

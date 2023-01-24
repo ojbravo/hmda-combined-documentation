@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # 2017 Panel Data Fields
 
 ### [activity\_year](#activity_year)

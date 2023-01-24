@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # 2017 TS Data Fields
 
 ### [activity\_year](#activity_year)

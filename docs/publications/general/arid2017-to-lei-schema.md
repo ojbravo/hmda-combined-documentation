@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # ARID2017 to LEI Reference Table - Schema  
 
 |Field|Max Length|Type|

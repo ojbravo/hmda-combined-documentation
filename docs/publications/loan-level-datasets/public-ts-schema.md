@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Public Transmittal Sheet - Schema
 
 Fields|Max Length|Type|

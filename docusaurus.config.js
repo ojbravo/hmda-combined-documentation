@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'HMDA Documentation',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -57,6 +57,12 @@ const config = {
             position: 'left',
             label: 'Documentation'
           },
+          {
+            type: 'doc',
+            docId: 'graphs/index',
+            position: 'left',
+            label: 'Quarterly Graphs API'
+          }
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

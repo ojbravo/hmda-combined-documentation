@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Public LAR - Schema
 
 |Field|Max Length|Type|

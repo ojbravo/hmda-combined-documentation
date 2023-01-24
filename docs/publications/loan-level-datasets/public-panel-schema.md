@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Public Panel - Schema
 
 |Field|Max Length|Type|
