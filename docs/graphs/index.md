@@ -6,13 +6,15 @@ This API is what powers the [Data Browser's Quarterly Graphs](https://ffiec.cfpb
 
 ### Graph Data Summary
 
-  <b>Request</b>
+  <b>Request:</b>
 
   `curl "https://ffiec.cfpb.gov/quarterly-data/graphs" -H 'Content-Type: application/json'`
 
+  <b>Response:</b>
+
   ```json
   Method: GET
-  JSON Response:
+  Response: JSON
 
   {
     "graphs": [
@@ -40,9 +42,11 @@ by appending the `endpoint` field of the desired graph metadata to the API root 
 
 `curl "https://ffiec.cfpb.gov/quarterly-data/graphs" -H 'Content-Type: application/json'`
 
-```json
-Method: GET
-Return JSON:
+<b>Response:</b>
+
+  ```json
+  Method: GET
+  Response: JSON
 
 {
   "series": [

@@ -61,7 +61,7 @@ const config = {
             type: 'doc',
             docId: 'graphs/index',
             position: 'left',
-            label: 'Quarterly Graphs API'
+            label: 'HMDA APIs'
           }
           // {
           //   href: 'https://github.com/facebook/docusaurus',

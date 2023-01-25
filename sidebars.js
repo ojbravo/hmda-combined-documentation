@@ -23,7 +23,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         'faq/data-collection-timelines',
         'faq/identifiers-faq',
@@ -140,8 +140,9 @@ const sidebars = {
     'external-apis',
   ],
   // Includes: /graphs
-  hmdaQuarterlyGraphsAPI: [
-    'graphs/index'
+  hmdaDeveloperAPIs: [
+    'check-digit/index',
+    'graphs/index',
   ]
 }
 
