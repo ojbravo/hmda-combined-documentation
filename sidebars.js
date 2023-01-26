@@ -28,6 +28,7 @@ const sidebars = {
         'faq/data-collection-timelines',
         'faq/identifiers-faq',
         'faq/downloading-datasets',
+        'faq/filing-faq',
         'faq/data-browser-graphs-faq',
         'faq/data-browser-maps-faq',
         'faq/static-dataset-faq',
