@@ -59,7 +59,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'graphs/index',
+            docId: 'api/graphs/index',
             position: 'left',
             label: 'HMDA APIs'
           }

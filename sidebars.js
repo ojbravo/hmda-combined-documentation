@@ -141,8 +141,8 @@ const sidebars = {
   ],
   // Includes: /graphs
   hmdaDeveloperAPIs: [
-    'check-digit/index',
-    'graphs/index',
+    'api/check-digit/index',
+    'api/graphs/index',
   ]
 }
 
