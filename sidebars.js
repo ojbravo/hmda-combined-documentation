@@ -142,6 +142,8 @@ const sidebars = {
   ],
   // Includes: /graphs
   hmdaDeveloperAPIs: [
+    'api/filing/platform',
+    'api/filing/beta-platform',
     'api/check-digit/index',
     'api/graphs/index',
   ]

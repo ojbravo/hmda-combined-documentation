@@ -12,10 +12,12 @@ This API is what powers the [Data Browser's Quarterly Graphs](https://ffiec.cfpb
 
   <b>Response:</b>
 
-  ```json
+  ```
   Method: GET
   Response: JSON
+  ```
 
+  ```json
   {
     "graphs": [
       {
@@ -44,10 +46,12 @@ by appending the `endpoint` field of the desired graph metadata to the API root 
 
 <b>Response:</b>
 
-  ```json
+  ```
   Method: GET
   Response: JSON
+  ```
 
+  ```json
 {
   "series": [
     {
