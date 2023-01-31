@@ -140,16 +140,20 @@ const sidebars = {
     // External APIs doc
     {
       type: 'category',
-      label: 'External APIs',
+      label: 'Developer APIs',
       link: {
         type: 'generated-index',
       },
       collapsed: true,
       items: [
-        'data-browser/index',
-        'rate-spread/index',
-        'check-digit/index',
-        'graphs/index',
+        'api/filing/platform',
+        'api/filing/beta-platform',
+        'api/public-verification/index',
+        'api/file-serving/index',
+        'api/data-browser/index',
+        'api/rate-spread/index',
+        'api/check-digit/index',
+        'api/graphs/index',
       ],
     },
   ],
