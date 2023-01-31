@@ -137,13 +137,28 @@ const sidebars = {
       ],
     },
     // External APIs doc
-    'external-apis',
+    {
+      type: 'category',
+      label: 'External APIs',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: true,
+      items: [
+        'data-browser/index',
+        'rate-spread/index',
+        'check-digit/index',
+        'graphs/index',
+      ],
+    },
   ],
-  // Includes: /graphs
+  /* Includes: /graphs
   hmdaDeveloperAPIs: [
+    'rate-spread/index',
     'check-digit/index',
     'graphs/index',
   ]
+  */
 }
 
 module.exports = sidebars;

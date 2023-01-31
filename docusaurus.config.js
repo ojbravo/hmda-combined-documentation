@@ -45,6 +45,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_ukraine',
+        content:
+          '<div class="banner"><header class="banner-header"><div class="banner-inner"><img src="../img/favicon-57.png" alt="U.S. flag" /><p>An official website of the United States government</p></div></header></div>',
+        isCloseable: false,
+      },
       navbar: {
         logo: {
           alt: 'hmda-logo',
@@ -52,17 +58,60 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'hmda-intro',
+            to: 'https://ffiec.cfpb.gov/',
+            label: 'Home Mortgate Disclousure Act',
             position: 'left',
-            label: 'Documentation'
+            target: '_self',
+            className: 'hmda-name',
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/',
+            label: 'HOME',
+            position: 'right',
+            target: '_self',
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/filing/2022/',
+            label: 'FILING',
+            position: 'right',
+            target: '_self',
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/data-browser/',
+            label: 'DATA BROWSER',
+            position: 'right',
+            target: '_self',
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/data-publication/',
+            label: 'DATA PUBLICATION',
+            position: 'right',
+            target: '_self',
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/tools/',
+            label: 'TOOLS',
+            position: 'right',
+            target: '_self',
           },
           {
             type: 'doc',
-            docId: 'graphs/index',
-            position: 'left',
-            label: 'HMDA APIs'
-          }
+            docId: 'hmda-intro',
+            position: 'right',
+            label: 'DOCUMENTATION'
+          },
+          {
+            to: 'https://ffiec.cfpb.gov/updates-notes',
+            label: 'UPDATES',
+            position: 'right',
+            target: '_self',
+          },
+          // {
+          //   type: 'doc',
+          //   docId: 'graphs/index',
+          //   position: 'left',
+          //   label: 'HMDA APIs'
+          // }
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
