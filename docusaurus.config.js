@@ -96,6 +96,7 @@ const config = {
           },
           {
             type: 'doc',
+<<<<<<< HEAD
             docId: 'hmda-intro',
             position: 'right',
             label: 'DOCUMENTATION'
@@ -112,6 +113,12 @@ const config = {
           //   position: 'left',
           //   label: 'HMDA APIs'
           // }
+=======
+            docId: 'api/graphs/index',
+            position: 'left',
+            label: 'HMDA APIs'
+          }
+>>>>>>> b7be07df6aa2ccac1a0edc6509f7cb8939971e02
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

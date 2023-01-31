@@ -28,6 +28,7 @@ const sidebars = {
         'faq/data-collection-timelines',
         'faq/identifiers-faq',
         'faq/downloading-datasets',
+        'faq/filing-faq',
         'faq/data-browser-graphs-faq',
         'faq/data-browser-maps-faq',
         'faq/static-dataset-faq',
@@ -152,12 +153,15 @@ const sidebars = {
       ],
     },
   ],
-  /* Includes: /graphs
+  /* Includes APIs from: https://cfpb.github.io/hmda-platform/#hmda-api-documentation
   hmdaDeveloperAPIs: [
+    'api/filing/platform',
+    'api/filing/beta-platform',
+    'api/public-verification/index',
     'rate-spread/index',
-    'check-digit/index',
-    'graphs/index',
-  ]
+    'api/check-digit/index',
+    'api/graphs/index',
+  ],
   */
 }
 
