@@ -140,13 +140,14 @@ const sidebars = {
     // External APIs doc
     'external-apis',
   ],
-  // Includes: /graphs
+  // Includes APIs from: https://cfpb.github.io/hmda-platform/#hmda-api-documentation
   hmdaDeveloperAPIs: [
     'api/filing/platform',
     'api/filing/beta-platform',
+    'api/public-verification/index',
     'api/check-digit/index',
     'api/graphs/index',
-  ]
+  ],
 }
 
 module.exports = sidebars;
